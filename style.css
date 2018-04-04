@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+   font-family: 'Roboto', sans-serif;
+  
+  
+}
+
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px; 
+    margin: 0 auto; 
+}
+
+.one-third {
+    width: 29%;
+    float: left;
+    margin: 2%;
+}
+
+#gallery img {
+    box-shadow: 4px 4px 4px black;
+}
+
+#gallery img:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+    .one-third {
+        width: 48%;
+        margin: 1%;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    .one-third {
+        width: 98%;
+        margin: 1%;
+    }
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+    padding: 1% 0;
+    font-size: 100%;
+    border: 0;
+ }
+
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+ }
+
+.navbar-nav li {
+      padding-right: 20px;
+  }
+
+
+.banner img {
+      width: 100%;
+  }
+
+.navbar-header{
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 300%;
+    color: white;
+    
+}
+
+h2 {
+    font-size: 210%;
+    color: white;
+}
+
+h3 {
+    font-size: 150%;
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+p {
+    font-size: 120%;
+    padding: 6%;
+    color: white;
+    
+}
+
+#home {
+    padding-top: 80px;
+    background-color: black;
+}
+
+.social {
+    font-size: 500%;
+}
+
+#connect .social a {
+    padding: 3%;
+    color: white;
+}
+
+#connect img {
+    margin: 0 auto;
+}
+#connect .social a:hover {
+    color: #d5d5d5;
+}
+
+#about {
+    padding: 70px 0;
+    background-color: black;
+    
+}
+
+#about img {
+    padding: 70px 0;
+}
+
+#about .social a {
+    padding: 0;
+    color: white;
+    padding-bottom: -50px;
+}
+
+#about .social a:hover {
+    color: #d5d5d5;
+}
+
+#about h1 h2 p {
+    padding-top: 50px;
+}
+
+#services {
+    padding: 70px 0 50px;
+    background-color: black;
+    box-shadow: 4px 4px 4px #666;
+}
+
+#gallery h1 {
+    color: white;
+}
+
+#gallery {
+    padding: 70px 0 50px;
+    box-shadow: 4px 4px 4px black;
+    background: url(https://images.pexels.com/photos/274192/pexels-photo-274192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260https://images.pexels.com/photos/341858/pexels-photo-341858.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg )repeat fixed 100%;
+
+}
+
+#connect {
+    padding-bottom: 12%;
+    background-color: black;
+    box-shadow: 4px 4px 4px #666;
+}
+
+.row {
+    margin: 0;
+}
+
+
+
+
+
+.form-control {
+    width: 600px;
+    background: transparent;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+input {
+    height: 450px;
+}
+
+form .submit {
+    background: white;
+    border-color: transparent;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover {
+    background-color: #d5d5d5;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 150%;
+    }
+    h2 {
+        font-size: 130%;
+    }
+    h3 {
+        font-size: 110%;
+        max-width: 90%;
+    }
+    p {
+        padding-top: 3%;
+        font-size: 90%;
+    }
+    #services img {
+        max-width: 150px;
+    }
+    #gallery img {
+        max-width: 110px;
+    }
+    #about img {
+        max-width: 150px;
+    }
+    .form-control {
+        max-width: 150px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
